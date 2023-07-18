@@ -61,16 +61,19 @@
     font-weight: 500;
     line-height: normal;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
 
 }
-
+.follow-btn img{
+    height: 22px;
+    
+}
+.youtubebtn{
+    margin-left: 24px;
+    margin-right: 16px;
+   
+}
 .header-banner{
     display: flex;
-}
-
-.banner-left-img{
-    background-image: url('../assets/images/Group 14.png');
-    background-repeat: no-repeat;
-    max-width: 900px ;
-    max-height: 700px;
 }
