@@ -9,6 +9,7 @@
     border: 1px solid red;
     height: 130px;
     display: flex;
+    justify-content: space-around;
 }
 .nav-container h1 {
     color: #0B0223;
@@ -19,9 +20,46 @@
 .logo-container{
     display: flex;
     align-items: center;
+    /* width: 40%; */
+    justify-content: center;
 }
-.logo-container img{
+.logo-container img {
     height: 40px;
     margin-right: 20px;
+
+}
+
+.item-container {
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-container li{
+    list-style: none;
+    margin-right: 32px;
+}
+.item-container li a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.follow-btn{
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 8px;
 
 }
