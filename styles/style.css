@@ -63,3 +63,14 @@
     border-radius: 8px;
 
 }
+
+.header-banner{
+    display: flex;
+}
+
+.banner-left-img{
+    background-image: url('../assets/images/Group 14.png');
+    background-repeat: no-repeat;
+    max-width: 900px ;
+    max-height: 700px;
+}
