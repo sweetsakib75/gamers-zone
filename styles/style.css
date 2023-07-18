@@ -1,5 +1,27 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container{
+    border: 1px solid red;
+    height: 130px;
+    display: flex;
+}
+.nav-container h1 {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container img{
+    height: 40px;
+    margin-right: 20px;
+
 }
