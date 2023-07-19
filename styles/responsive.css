@@ -46,8 +46,32 @@
     }
 
 
+    .pic-banner{
+        display: block;
+        background: none;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    
+    }
+    .bannerimgpng{
+        width: 50%;
+        height: auto;
+        object-fit: cover;}
+    .bannerimgpng .rawimg{
+        width: 50%;
+        height: auto;
+        object-fit: cover;
 
+    }
 
+    .picbannertext{
+        width: fit-content;
+    }
+    .picbannertext, .picbannertext p, .picbannertext h1, .picbannertext h2{
+        text-align: center;
+
+    }
 
 
 

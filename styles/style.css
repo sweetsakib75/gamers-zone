@@ -156,3 +156,184 @@
     border: none;
     margin-left: 24px;
 }
+
+.pic-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 100%;
+height: auto;
+flex-shrink: 0;
+
+}
+.resize{
+    max-width: 1440px;
+}
+.bannerimgpng{
+   width: 868px;
+    height: 489px;
+
+}
+
+.picbannertext{
+    width: 520px;
+    text-align: right;
+    margin: auto;
+    margin: 0px;
+    
+}
+.picbannertext h1{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 24px;
+}
+.picbannertext p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.picbannertext button{
+    
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+margin-top: 32px;
+margin-bottom: 24px;
+}
+/* game section */
+.game-catagory{
+    max-width: 1440px;
+    margin: auto;
+}
+.action-game-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .card img {
+    width: 60px;
+    height: 60px;
+  }
+  .card:hover {
+    border: 1px solid #ff42a5;
+    border-radius: 50px;
+    background: #fff;
+    padding: 5px 15px;
+  }
+
+
+
+/* footer section */
+
+footer {
+    background-color: #0b0223;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+  }
+  .category ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .category li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .social ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .social li {
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+  }
+  .category li{
+
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  
+  
+  
+  .privecy {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .privecy ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  .privecy li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footer-container p {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
