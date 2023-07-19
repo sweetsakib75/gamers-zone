@@ -6,7 +6,6 @@
 }
 
 .nav-container{
-    border: 1px solid red;
     height: 130px;
     display: flex;
     justify-content: space-around;
@@ -75,5 +74,8 @@
    
 }
 .header-banner{
-    display: flex;
+    background-image: url("../assets/images/group14.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 50%;
 }
