@@ -1,19 +1,57 @@
 @media screen and (max-width: 430px) {
     .header{
-        margin-top: 100px;
+        text-align: center;
+
     }
     .nav-container {
+        height: 490px;
         flex-direction: column;
         gap: 60px;
+        width: 100%;
+        box-shadow: none;
+        align-items: center;
     }
     .logo-container {
-        width: 100%;
         justify-content: center;
         margin-top: 100px;
     }
     .item-container {
-        width: 100%;
+        justify-content: center;
         flex-direction: column;
         gap: 35px;
+     
     }
+     .item-container li {
+       margin: auto;
+     
+    }
+    .header-banner{
+        flex-direction: column;
+        
+        
+    }
+    .banner-left-img{
+        width: 100%;
+        height: 100vh;
+    }
+    
+
+.banner-left-img .textsbn{
+
+
+}
+
+    .hdimg2 img{
+        width:100vw;
+    }
+
+
+
+
+
+
+
+
+
+
 }

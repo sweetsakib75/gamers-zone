@@ -9,6 +9,7 @@
     height: 130px;
     display: flex;
     justify-content: space-around;
+    box-shadow: 0px 4px 30px 0px;
 }
 .nav-container h1 {
     color: #0B0223;
@@ -73,9 +74,85 @@
     margin-right: 16px;
    
 }
-.header-banner{
+.banner-left-img{
     background-image: url("../assets/images/group14.png");
+    width: 50%;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: 50%;
+}
+.header-banner img{
+    max-width: 900px;
+    max-height: 700px;
+
+}
+ 
+.header-banner{
+    display: flex;
+    max-width: 50;
+}
+.textsbn h4{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.textsbn h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+.textsbn ul li{
+    list-style: none;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 12px;
+}
+.textsbn ul li i{
+    margin-right: 12px;
+}
+
+.signbtn, .gorogue{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+.signbtn{
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.gorogue{
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    margin-left: 24px;
 }
