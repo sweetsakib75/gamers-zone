@@ -1,4 +1,4 @@
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
     .header{
         text-align: center;
 
@@ -33,29 +33,30 @@
     .banner-left-img{
         width: 100%;
         height: 100vh;
+        padding-top: -100px;
     }
     
 
-.banner-left-img .textsbn{
-
-
-}
-
     .hdimg2 img{
         width:100vw;
+        margin-bottom: 25px;
+        margin-top: -100px;
     }
 
-
-    .pic-banner{
-        display: block;
-        background: none;
+.picbanner{
+    background-color: none;
+}
+    .resize{
+       flex-direction: column;
+       background-color: none;
         width: 100%;
         height: auto;
         object-fit: cover;
     
     }
     .bannerimgpng{
-        width: 50%;
+        background-color: none;
+        
         height: auto;
         object-fit: cover;}
     .bannerimgpng .rawimg{
@@ -74,6 +75,23 @@
     }
 
 
+
+    .online-games {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+
+
+
+      .downloadstats{
+        display: none;
+
+      }
+
+
+      .game-container{
+        flex-direction: column;
+      }
 
 
 
