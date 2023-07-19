@@ -92,7 +92,7 @@
  
 .header-banner{
     display: flex;
-    max-width: 50;
+    margin: auto;
 }
 .textsbn h4{
     color: #0B0223;
@@ -163,7 +163,7 @@
     justify-content: space-around;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     width: 100%;
-height: auto;
+height: 600px;
 flex-shrink: 0;
 
 }
@@ -224,6 +224,103 @@ border: none;
 margin-top: 32px;
 margin-bottom: 24px;
 }
+
+
+
+/* card section */
+.gamecard{
+    max-width: 1440px;
+    align-items: center;
+    margin: auto;
+}
+.gamecard h1 {
+    color: #0b0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+  .gamecard span {
+    background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+  }
+  .gamecard p {
+    color: #534c64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  .online-games {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .online-games img {
+    width: 100%;
+  }
+  .online-games p {
+    color: #534c64;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+/* NO download section */
+.downloadstats {
+    padding: 100px 0;
+    margin-bottom: 100px;
+  }
+  .nodownload-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nodownload-img {
+    width: 50%;
+    position: relative;
+  }
+  .nodownload-img img {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .nodownload-bottomimg {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+  }
+  .nodownload-title {
+    width: 50%;
+    margin-left: 110px;
+    padding: 0px;
+  }
+  
+  .nodownload-title h2 {
+    color: #0b0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  .nodownload-title p {
+    color: #534C64;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+    width: 483px;
+
+  }
+
 /* game section */
 .game-catagory{
     max-width: 1440px;
