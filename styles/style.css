@@ -330,6 +330,12 @@
 
   }
 
+  .online-games img:hover{
+    opacity: 60%;
+    
+  }
+
+
 /* game options section */
 .game-catagory{
     max-width: 1440px;
@@ -352,6 +358,7 @@
   .card img {
     width: 60px;
     height: 60px;
+
   }
   .card:hover {
     border: 1px solid #ff42a5;

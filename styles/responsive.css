@@ -28,19 +28,16 @@
     .header-banner{
         flex-direction: column;
         
-        
     }
     .banner-left-img{
         width: 100%;
         height: 100vh;
-        padding-top: -100px;
     }
     
 
     .hdimg2 img{
         width:100vw;
         margin-bottom: 25px;
-        margin-top: -100px;
     }
 
 .picbanner{
@@ -56,7 +53,8 @@
     }
     .bannerimgpng{
         background-color: none;
-        
+        width: 80%;
+        margin: auto;
         height: auto;
         object-fit: cover;}
     .bannerimgpng .rawimg{
@@ -84,16 +82,142 @@
 
 
       .downloadstats{
-        display: none;
+        flex-direction: column;
 
       }
+      .downloadstats, .download-img, .download-bottomimg, .download-text{
+        display: block;
+        margin: 0px;
+      }
+      .download-img {
+        width: 10%;
+        position: relative;flex-direction: column;
+      }
+      .download-bottomimg {
+        height: 70px;
+        width:70px;
+        position: absolute;
+        top: 50%;
+        left: 55%;flex-direction: column;
+      }
+      .download-text h2, .download-text p{
+        display: block;
+        margin-left: -110px;
+        padding: 0px;flex-direction: column;
 
-
+      }
+      .download-text p {
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        width: 100%;
+    
+      }
       .game-container{
         flex-direction: column;
       }
 
 
 
+
+}
+
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .online-games {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .header-banner{
+        flex-direction: column;
+        
+      }
+      .banner-left-img{
+        width: 100%;
+        height: 100vh;
+    }
+    
+
+    .hdimg2 img{
+        width:100vw;
+        margin-bottom: 25px;
+    }
+      .game-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px;
+      }
+
+
+      .resize{
+        flex-direction: column;
+        background-color: none;
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+     
+     }
+     .bannerimgpng{
+         background-color: none;
+         width: 80%;
+        margin: auto;
+        height: auto;
+         object-fit: cover;}
+     .bannerimgpng .rawimg{
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+ 
+     }
+ 
+     .picbannertext{
+         width: fit-content;
+     }
+     .picbannertext, .picbannertext p, .picbannertext h1, .picbannertext h2{
+         text-align: center;
+ 
+     }
+     .downloadstats{
+        flex-direction: column;
+
+      }
+      .downloadstats, .download-img, .download-bottomimg, .download-text{
+        display: block;
+        margin: 0px;
+      }
+      .download-img {
+        width: 10%;
+        position: relative;flex-direction: column;
+      }
+      .download-bottomimg {
+        height: 70px;
+        width:70px;
+        position: absolute;
+        top: 50%;
+        left: 55%;flex-direction: column;
+      }
+      .download-text h2, .download-text p{
+        display: block;
+        margin-left: -110px;
+        padding: 0px;flex-direction: column;
+
+      }
+      .download-text p {
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        width: 100%;
+    
+      }
 
 }
