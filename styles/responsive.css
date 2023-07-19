@@ -60,10 +60,10 @@
         height: auto;
         object-fit: cover;}
     .bannerimgpng .rawimg{
-        width: 50%;
+        width: 100%;
         height: auto;
         object-fit: cover;
-
+        margin: auto;
     }
 
     .picbannertext{
